@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --neutral-10: #ffffff;
   --neutral-20: #f5f5f5;
   --neutral-30: #ededed;
@@ -219,7 +219,9 @@ label {
   transform: scale(1.05);
   box-shadow: var(--shadow-3);
 }
-
+.btn:disabled {
+  background-color: var(--primary-disabled);
+}
 body {
   font-family: var(--ff-inter);
   font-size: var(--fs-4);
@@ -241,4 +243,4 @@ body {
   background: var(--danger-bg);
   max-width: max-content;
   padding: 6px 12px;
-}
+} */
